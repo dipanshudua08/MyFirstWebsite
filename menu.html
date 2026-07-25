@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dua Son's restaurant  </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Punjabi <span class="accent">&amp; Tandoor Outlet</span></a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html#reserve" class="nav-cta">Book a Table</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" style="padding:80px 0 60px;">
+    <div class="wrap">
+      <p class="eyebrow">The Full Spread</p>
+      <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Our Menu</h1>
+      <p class="lede">Everything is cooked to order. Spice level marked with 🌶 — ask us to turn it up or down.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:60px;">
+    <div class="wrap">
+
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="active" data-cat="starters">Starters</button>
+        <button data-cat="mains">Mains</button>
+        <button data-cat="breads">Breads &amp; Rice</button>
+        <button data-cat="desserts">Desserts</button>
+        <button data-cat="drinks">Drinks</button>
+      </div>
+
+      <!-- STARTERS -->
+      <div class="menu-category active" id="starters">
+        <div class="menu-list">
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Tandoori Chaap (Half) <span class="spice">🌶🌶</span></div>
+              <div class="mi-desc">Charcoal-grilled, yogurt-marinated overnight with Kashmiri chilli.</div>
+            </div>
+            <div class="mi-price">₹289</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Paneer Tikka <span class="spice">🌶</span></div>
+              <div class="mi-desc">Cottage cheese, bell pepper and onion, skewered and smoked.</div>
+            </div>
+            <div class="mi-price">₹249</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Panner With Tandoor <span class="spice">🌶🌶</span></div>
+              <div class="mi-desc">Hand-minced , ginger, green chilli, char-grilled.</div>
+            </div>
+            <div class="mi-price">₹319</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Chole Bhature<span class="spice">🌶</span></div>
+              <div class="mi-desc">With Love </div>
+            </div>
+            <div class="mi-price">₹329</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAINS -->
+      <div class="menu-category" id="mains">
+        <div class="menu-list">
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">24-Hour Dal Makhani</div>
+              <div class="mi-desc">Black lentils, tomato, butter — simmered for a full day.</div>
+            </div>
+            <div class="mi-price">₹259</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Veg Biryani <span class="spice">🌶</span></div>
+              <div class="mi-desc">With Fresh Vegies finished in a tomato-cashew gravy.</div>
+            </div>
+            <div class="mi-price">₹339</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Malai Kofta <span class="spice">🌶🌶🌶</span></div>
+              <div class="mi-desc">Soft cottage cheese and potato dumping served in a rich</div>
+            </div>
+            <div class="mi-price">₹389</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="mi-name">Paneer Lababdar <span class="spice">🌶</span></div>
+              <div class="mi-desc">Cottage cheese in a rich, mildly sweet tomato gravy.</div>
+            </div>
+            <div class="mi-price">₹279</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BREADS -->
+      <div class="menu-category" id="breads">
+        <div class="menu-list">
+          <div class="menu-item">
+            <div><div class="mi-name">Tandoori Roti</div><div class="mi-desc">Whole wheat, straight off the clay wall.</div></div>
+            <div class="mi-price">₹35</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Butter Naan</div><div class="mi-desc">Refined flour, brushed with white butter.</div></div>
+            <div class="mi-price">₹55</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Garlic Naan</div><div class="mi-desc">Loaded with fresh garlic and coriander.</div></div>
+            <div class="mi-price">₹65</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Jeera Rice</div><div class="mi-desc">Basmati rice tempered with roasted cumin.</div></div>
+            <div class="mi-price">₹149</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESSERTS -->
+      <div class="menu-category" id="desserts">
+        <div class="menu-list">
+          <div class="menu-item">
+            <div><div class="mi-name">Kulfi Tasting Trio</div><div class="mi-desc">Malai, pistachio and saffron — set the traditional way.</div></div>
+            <div class="mi-price">₹169</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Gulab Jamun (2 pc)</div><div class="mi-desc">Milk-solid dumplings in warm cardamom syrup.</div></div>
+            <div class="mi-price">₹99</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Gajar Ka Halwa</div><div class="mi-desc">Slow-cooked carrot halwa, served warm with rabri.</div></div>
+            <div class="mi-price">₹139</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu-category" id="drinks">
+        <div class="menu-list">
+          <div class="menu-item">
+            <div><div class="mi-name">Masala Chaas</div><div class="mi-desc">Spiced buttermilk, mint and roasted cumin.</div></div>
+            <div class="mi-price">₹79</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Sweet Lassi</div><div class="mi-desc">Thick, chilled, topped with malai.</div></div>
+            <div class="mi-price">₹99</div>
+          </div>
+          <div class="menu-item">
+            <div><div class="mi-name">Nimbu Pani</div><div class="mi-desc">Fresh lime, black salt, mint.</div></div>
+            <div class="mi-price">₹69</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Punjabi &amp; Tandoor</h4>
+        <p style="max-width:320px;color:#D8C4B0;font-size:0.9rem;">A neighbourhood kitchen serving tandoor-fired, slow-cooked North Indian food since 2013.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Shop No. 143 , C Block Hastinapur</li>
+          <li>Meerut, Uttar Pradesh</li>
+          <li>Open 12 PM – 11 PM daily</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Punjabi &amp; Tandoor Outlet. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.querySelectorAll('.menu-tabs button').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.menu-tabs button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.menu-category').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.cat).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
