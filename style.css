@@ -1,12 +1,4 @@
-/* ============================================
-   MIRCHI & TANDOOR — Shared Stylesheet
-   Palette:
-   --charcoal-maroon: #2B1116  (backgrounds, deep sections)
-   --paper: #F7EDE2            (light backgrounds, text on dark)
-   --mustard: #E8A33D          (accent, CTAs)
-   --deep-green: #2F4739       (secondary accent)
-   --rust: #B33A3A             (highlight, tags)
-   ============================================ */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
 
